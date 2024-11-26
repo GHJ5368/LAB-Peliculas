@@ -32,11 +32,11 @@ Pelicula = NamedTuple(
     [("fecha_estreno", date), 
     ("titulo", str), 
     ("director", str), 
-    ("generos",List[str]),
+    ("generos", list[str]),
     ("duracion", int),
     ("presupuesto", int), 
     ("recaudacion", int), 
-    ("reparto", List[str])
+    ("reparto", list[str])
     ]
 )
 ```
